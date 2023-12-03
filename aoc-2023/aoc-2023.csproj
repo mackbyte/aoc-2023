@@ -47,10 +47,16 @@
         <Compile Include="src\day1\Day.cs" />
         <Compile Include="src\day1\Part1.cs" />
         <Compile Include="src\day1\Part2.cs" />
+        <Compile Include="src\day2\Day.cs" />
+        <Compile Include="src\day2\Part1.cs" />
+        <Compile Include="src\day2\Part2.cs" />
         <Compile Include="src\Program.cs" />
     </ItemGroup>
     <ItemGroup>
       <Content Include="src\day1\input.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="src\day2\input.txt">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
     </ItemGroup>
