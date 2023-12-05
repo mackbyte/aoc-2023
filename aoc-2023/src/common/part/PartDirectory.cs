@@ -14,7 +14,7 @@ namespace aoc_2023.common.part {
 
             Day day;
             if (Directory.TryGetValue(dayNum, out day)) {
-                
+                day.SetPart(partNum);
             } else {
                 day = new Day(dayNum);
                 day.SetPart(partNum);
@@ -49,7 +49,7 @@ namespace aoc_2023.common.part {
         }
 
         public void SetPart(int num) {
-            parts[num] = true;
+            parts[num-1] = true;
         }
 
         public List<int> GetPartList() {
